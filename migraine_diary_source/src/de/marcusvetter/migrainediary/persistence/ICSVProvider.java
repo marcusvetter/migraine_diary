@@ -1,6 +1,6 @@
-package de.mvvt.migraenetagebuch.persistence;
+package de.marcusvetter.migrainediary.persistence;
 
-import de.mvvt.migraenetagebuch.model.Entry;
+import de.marcusvetter.migrainediary.model.Entry;
 
 /**
  * Created by Marcus on 01.09.13.

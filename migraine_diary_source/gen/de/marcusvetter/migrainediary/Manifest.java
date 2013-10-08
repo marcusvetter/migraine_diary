@@ -1,6 +1,6 @@
 /*___Generated_by_IDEA___*/
 
-package de.marcusvetter.MigraeneApp;
+package de.marcusvetter.migrainediary;
 
 /* This stub is for using by IDE only. It is NOT the Manifest class actually packed into APK */
 public final class Manifest {
