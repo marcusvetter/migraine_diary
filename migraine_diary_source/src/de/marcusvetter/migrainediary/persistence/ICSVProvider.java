@@ -7,5 +7,5 @@ import de.marcusvetter.migrainediary.model.Entry;
  */
 public interface ICSVProvider {
 
-    void saveEntry(Entry entry);
+    boolean saveEntry(Entry entry);
 }

@@ -23,7 +23,6 @@ public class Entry {
     private String temp;
     private boolean sportsEndurance;
     private boolean sportsPower;
-    private String comments;
 
     public String getDate() {
         return date;
@@ -167,13 +166,5 @@ public class Entry {
 
     public void setSportsPower(boolean sportsPower) {
         this.sportsPower = sportsPower;
-    }
-
-    public String getComments() {
-        return comments;
-    }
-
-    public void setComments(String comments) {
-        this.comments = comments;
     }
 }

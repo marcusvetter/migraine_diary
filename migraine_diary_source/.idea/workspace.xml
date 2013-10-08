@@ -28,32 +28,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c353f418-dde8-45a4-962f-c9d801c75183" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/CSVExporter.java" />
-      <change type="DELETED" beforePath="C:\Daten\JavaWorkspaces\migraine_diary\migraine_diary_source\gen\de\marcusvetter\MigraeneApp\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Daten\JavaWorkspaces\migraine_diary\migraine_diary_source\gen\de\marcusvetter\MigraeneApp\Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Daten\JavaWorkspaces\migraine_diary\migraine_diary_source\gen\de\marcusvetter\MigraeneApp\R.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Daten\JavaWorkspaces\migraine_diary\migraine_diary_source\src\de\marcusvetter\MigraeneApp\StartActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Daten\JavaWorkspaces\migraine_diary\migraine_diary_source\src\de\marcusvetter\MigraeneApp\model\Entry.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Daten\JavaWorkspaces\migraine_diary\migraine_diary_source\src\de\marcusvetter\MigraeneApp\persistence\ICSVProvider.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../migraine_diary_data_definition.xlsx" afterPath="$PROJECT_DIR$/../migraine_diary_data_definition.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/CSVExporter.java" afterPath="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/CSVExporter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/model/Entry.java" afterPath="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/model/Entry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/ICSVProvider.java" afterPath="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/ICSVProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/StartActivity.java" afterPath="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/StartActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MigraeneApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/MainActivity.java" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1380726811183" ignored="false" />
-    <file path="/StartActivity.java" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381240319768" ignored="false" />
-    <file path="/activity_main.xml" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381237198891" ignored="false" />
+    <file path="/StartActivity.java" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381245004677" ignored="false" />
+    <file path="/activity_main.xml" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381244540802" ignored="false" />
     <file path="/fragment.java" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381234650317" ignored="false" />
     <file path="$PROJECT_DIR$/gen/de/marcusvetter/migrainediary/Manifest.java" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381234425245" ignored="false" />
     <file path="$PROJECT_DIR$/gen/de/marcusvetter/migrainediary/BuildConfig.java" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381234391034" ignored="false" />
     <file path="$PROJECT_DIR$/gen/de/marcusvetter/migrainediary/R.java" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381234425245" ignored="false" />
     <file path="/Dummy.txt" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381234579265" ignored="false" />
     <file path="/Entry.java" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381240470526" ignored="false" />
-    <file path="/CSVExporter.java" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381239708180" ignored="false" />
+    <file path="/CSVExporter.java" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381244616986" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381239197233" ignored="false" />
+    <file path="/ICSVProvider.java" changelist="c353f418-dde8-45a4-962f-c9d801c75183" time="1381244625983" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,11 +116,11 @@
       <file leaf-file-name="StartActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/de/marcusvetter/migrainediary/StartActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="91" selection-start="4118" selection-end="4118" vertical-scroll-proportion="0.6995192">
+            <state line="58" column="144" selection-start="2276" selection-end="2276" vertical-scroll-proportion="0.6995192">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1680#1958#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
+                <element signature="e#1680#2318#0" expanded="true" />
+                <element signature="e#2307#2308#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,7 +129,7 @@
       <file leaf-file-name="CSVExporter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/CSVExporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="39" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.0">
+            <state line="64" column="20" selection-start="2348" selection-end="2348" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,7 +140,7 @@
       <file leaf-file-name="Entry.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/marcusvetter/migrainediary/model/Entry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="25" selection-start="3209" selection-end="3209" vertical-scroll-proportion="0.0">
+            <state line="25" column="33" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,7 +149,7 @@
       <file leaf-file-name="ICSVProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/ICSVProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+            <state line="9" column="11" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -173,7 +167,7 @@
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="38" selection-start="9564" selection-end="9568" vertical-scroll-proportion="-2.1466668">
+            <state line="485" column="47" selection-start="20071" selection-end="20071" vertical-scroll-proportion="-2.0">
               <folding />
             </state>
           </provider>
@@ -211,12 +205,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/de/marcusvetter/MigraeneApp/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/de/marcusvetter/MigraeneApp/StartActivity.java" />
-        <option value="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/ICSVProvider.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/model/Entry.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/ICSVProvider.java" />
         <option value="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/CSVExporter.java" />
         <option value="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/StartActivity.java" />
-        <option value="$PROJECT_DIR$/src/de/marcusvetter/migrainediary/model/Entry.java" />
       </list>
     </option>
   </component>
@@ -573,7 +567,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21742424" sideWeight="0.7764505" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22354949" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22354949" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -658,8 +652,8 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1680#1958#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#1680#2318#0" expanded="true" />
+            <element signature="e#2307#2308#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -686,8 +680,8 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1680#1958#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#1680#2318#0" expanded="true" />
+            <element signature="e#2307#2308#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -716,23 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/ICSVProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="38" selection-start="9564" selection-end="9568" vertical-scroll-proportion="-2.1466668">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="28" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
@@ -754,16 +731,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="485" column="47" selection-start="20071" selection-end="20071" vertical-scroll-proportion="-2.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/marcusvetter/migrainediary/model/Entry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="25" selection-start="3209" selection-end="3209" vertical-scroll-proportion="0.0">
+        <state line="25" column="33" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/ICSVProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/marcusvetter/migrainediary/persistence/CSVExporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="39" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.0">
+        <state line="64" column="20" selection-start="2348" selection-end="2348" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -772,11 +766,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/marcusvetter/migrainediary/StartActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="91" selection-start="4118" selection-end="4118" vertical-scroll-proportion="0.6995192">
+        <state line="58" column="144" selection-start="2276" selection-end="2276" vertical-scroll-proportion="0.6995192">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1680#1958#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#1680#2318#0" expanded="true" />
+            <element signature="e#2307#2308#0" expanded="true" />
           </folding>
         </state>
       </provider>

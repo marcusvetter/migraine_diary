@@ -52,7 +52,12 @@ public class StartActivity extends Activity {
             public void onClick(View view) {
                 Entry entry = createEntryObject();
                 ICSVProvider csvProvider = new CSVExporter();
-                csvProvider.saveEntry(entry);
+                boolean success = csvProvider.saveEntry(entry);
+                if (success) {
+                    Toast.makeText(StartActivity.this, "Daten wurden erfolgreich gespeichert!", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(StartActivity.this, "Leider ist beim Speichern der Daten ein Fehler aufgetreten!", Toast.LENGTH_LONG).show();
+                }
             }
         });
     }
@@ -84,7 +89,6 @@ public class StartActivity extends Activity {
         entry.setTemp(((EditText) findViewById(R.id.input_temperature)).getText().toString());
         entry.setSportsEndurance(((CheckBox) findViewById(R.id.cb_sports_endurance)).isChecked());
         entry.setSportsPower(((CheckBox) findViewById(R.id.cb_sports_power)).isChecked());
-        entry.setComments(((EditText)findViewById(R.id.input_comments)).getText().toString());
         return entry;
     }
 

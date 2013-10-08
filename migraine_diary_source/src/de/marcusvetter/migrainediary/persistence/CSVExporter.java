@@ -19,7 +19,7 @@ public class CSVExporter implements ICSVProvider {
     private static final String SEPARATOR_CHAR = "; ";
 
     @Override
-    public void saveEntry(Entry entry) {
+    public boolean saveEntry(Entry entry) {
 
         StringBuilder result = new StringBuilder();
 
@@ -41,7 +41,6 @@ public class CSVExporter implements ICSVProvider {
         result.append(entry.getTemp() + SEPARATOR_CHAR);
         result.append(entry.isSportsEndurance() + SEPARATOR_CHAR);
         result.append(entry.isSportsPower() + SEPARATOR_CHAR);
-        result.append(entry.getComments() + SEPARATOR_CHAR);
 
         String lineToAdd = result.toString();
 
@@ -57,9 +56,13 @@ public class CSVExporter implements ICSVProvider {
             fw.write(System.getProperty("line.separator"));
 
             fw.close();
+
         } catch (IOException e) {
             e.printStackTrace();
+            return false;
         }
+
+        return true;
 
     }
 }
