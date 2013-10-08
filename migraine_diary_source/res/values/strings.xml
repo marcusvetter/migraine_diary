@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MigraeneTagebuch</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="activity_prompt">Choose a activity</string>
+
+    <string-array name="activity_array">
+        <item>University</item>
+        <item>Lab</item>
+        <item>Learning</item>
+        <item>Housework</item>
+        <item>Spare time</item>
+    </string-array>
+
+</resources>

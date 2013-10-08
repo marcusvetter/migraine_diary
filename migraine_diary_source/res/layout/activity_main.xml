@@ -1,0 +1,501 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity"
+                android:layout_margin="10px">
+
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Date"
+                    android:textStyle="bold"
+                    android:id="@+id/tv_date"/>
+
+            <DatePicker
+                    android:id="@+id/datePicker"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"/>
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="15px"
+                    android:layout_marginBottom="15px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:text="Head pain"
+                    android:id="@+id/tv_head_pain"/>
+
+            <RadioGroup
+                    android:id="@+id/rg_head_pain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="None"
+                        android:id="@+id/rg_headpain_rb_none"
+                        android:checked="true" />
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Little"
+                        android:id="@+id/rg_headpain_rb_little"/>
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Medium"
+                        android:id="@+id/rg_headpain_rb_medium"/>
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Massive"
+                        android:id="@+id/rg_headpain_rb_massive"/>
+
+            </RadioGroup>
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="15px"
+                    android:layout_marginBottom="15px"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Daily routine"
+                    android:textStyle="bold"
+                    android:id="@+id/tv_dailyroutine"
+                    android:layout_marginBottom="10px"/>
+
+            <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignTop="@+id/scrollView"
+                    android:layout_alignLeft="@+id/scrollView">
+
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Wake up"
+                            android:id="@+id/tv_wakeup"
+                            android:layout_gravity="center"/>
+
+                    <RadioGroup
+                            android:id="@+id/rg_wakeup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+                        <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt; 7"
+                                android:id="@+id/rg_wakeup_rb_less7"
+                                android:checked="true"
+                                />
+
+                        <Space
+                                android:layout_width="12px"
+                                android:layout_height="fill_parent"
+                                />
+
+                        <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="7 - 9"
+                                android:id="@+id/rg_wakeup_rb_7to9"/>
+
+
+                        <Space
+                                android:layout_width="28px"
+                                android:layout_height="fill_parent"
+                                />
+
+                        <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="> 9"
+                                android:id="@+id/rg_wakeup_rb_greater9"/>
+
+                    </RadioGroup>
+
+
+                </TableRow>
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Bedtime"
+                            android:id="@+id/tv_bedtime"
+                            android:layout_gravity="center"/>
+
+                    <RadioGroup
+                            android:id="@+id/rg_bedtime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                        <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt; 21"
+                                android:id="@+id/rg_bedtime_rb_less21"
+                                android:checked="true"/>
+
+                        <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="21 - 23"
+                                android:id="@+id/rg_bedtime_rb_21to23"/>
+
+
+                        <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="> 23"
+                                android:id="@+id/rg_bedtime_rb_greater23"/>
+
+                    </RadioGroup>
+
+
+                </TableRow>
+            </TableLayout>
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="15px"
+                    android:layout_marginBottom="15px"/>
+
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:text="Activity"
+                    android:id="@+id/tv_activity"/>
+
+
+            <Spinner
+                    android:id="@+id/sp_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/activity_array"
+                    android:prompt="@string/activity_prompt" />
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="15px"
+                    android:layout_marginBottom="15px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:text="Stress level"
+                    android:id="@+id/tv_stresslevel"/>
+
+            <SeekBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sb_stresslevel"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="15px"
+                android:layout_marginBottom="15px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:text="Nutrition surplus"
+                    android:id="@+id/tv_surplus"/>
+
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carb"
+                    android:textSize="20sp"
+                    android:id="@+id/cb_carb"/>
+
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fat"
+                    android:textSize="20sp"
+                    android:id="@+id/cb_fat"/>
+
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Protein"
+                    android:textSize="20sp"
+                    android:id="@+id/cb_protein"/>
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="15px"
+                    android:layout_marginBottom="15px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:text="Nutrition lack"
+                    android:id="@+id/tv_lack"/>
+
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Water"
+                    android:textSize="20sp"
+                    android:id="@+id/cb_water"/>
+
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Meat"
+                    android:textSize="20sp"
+                    android:id="@+id/cb_meat"/>
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="15px"
+                    android:layout_marginBottom="15px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:text="Drinks"
+                    android:id="@+id/tv_drinks"/>
+
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coffee"
+                    android:textSize="20sp"
+                    android:id="@+id/cb_coffee"/>
+
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alcoholic drinks"
+                    android:textSize="20sp"
+                    android:id="@+id/cb_alc"/>
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="15px"
+                    android:layout_marginBottom="15px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:text="Weather"
+                    android:id="@+id/tv_weather"/>
+
+            <RadioGroup
+                    android:id="@+id/rg_weather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sunny"
+                        android:id="@+id/rg_weather_rb_sunny"
+                        android:checked="true"
+                        />
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cloudy"
+                        android:id="@+id/rg_weather_rb_cloudy"/>
+
+
+                <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rainy"
+                        android:id="@+id/rg_weather_rb_rainy"/>
+
+            </RadioGroup>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_gravity="left|center_vertical">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Temperature:"
+                        android:id="@+id/tv_temperature"/>
+
+                <Space
+                        android:layout_width="15px"
+                        android:layout_height="fill_parent"
+                        />
+
+                <EditText
+                        android:layout_width="90px"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/input_temperature" android:numeric="integer"/>
+
+                <Space
+                        android:layout_width="15px"
+                        android:layout_height="fill_parent"
+                        />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="°C"
+                        android:id="@+id/tv_degree"/>
+
+            </LinearLayout>
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="15px"
+                    android:layout_marginBottom="15px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:text="Sports"
+                    android:id="@+id/tv_sports"/>
+
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Endurance"
+                    android:textSize="20sp"
+                    android:id="@+id/cb_sports_endurance"/>
+
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Power"
+                    android:textSize="20sp"
+                    android:id="@+id/cb_sports_power"/>
+
+            <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginTop="15px"
+                    android:layout_marginBottom="15px"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:text="Comments"
+                    android:id="@+id/tv_comments"/>
+
+            <EditText
+                    android:layout_width="400px"
+                    android:layout_height="150px"
+                    android:id="@+id/input_comments"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold"
+                    android:text="Save / Discard"
+                    android:id="@+id/tv_save_discard"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:layout_gravity="left|center_vertical">
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Save"
+                        android:id="@+id/button" android:layout_weight="0.5"/>
+                <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Discard"
+                        android:id="@+id/button1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
